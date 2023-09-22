@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0x00ffcc33)),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Bananny ffebad'),
+      home: const MyHomePage(title: 'Bananny is a nonprofit making nanny shares easier'),
     );
   }
 }
