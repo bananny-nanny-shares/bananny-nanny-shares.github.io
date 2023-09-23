@@ -1,11 +1,11 @@
 {
-    "name": "gh_bananny",
-    "short_name": "gh_bananny",
+    "name": "Bananny Nanny Share Childcare Nonprofit",
+    "short_name": "Bananny",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Web app to hold the Nanny Share Family Questionnaire google form.",
+    "description": "Bananny enables women to return to work by making nanny shares easier.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
