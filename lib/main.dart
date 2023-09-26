@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Bananny',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0x00ffcc33)),
         useMaterial3: true,
@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     ui.platformViewRegistry.registerViewFactory("webView", (int viewId) {
       html.IFrameElement element = html.IFrameElement();
-      element.src = 'https://docs.google.com/forms/d/e/1FAIpQLSenWj5iAf91lQO7f3VMocvhaQ1U7KdXnhTamADXbgqUFEBHbw/viewform?usp=sf_link';
+      element.src = 'https://docs.google.com/forms/d/e/1FAIpQLSdOB0TVOv781vcWQwSxnJeFmkZ0Vtl65Oe6NAek2A9Cv_6WoQ/viewform?usp=sf_link';
       element.style.border = 'none';
       return element;
     });
