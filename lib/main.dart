@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Bananny',
+      title: 'Find a Family for your Nanny Share - Bananny.org',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0x00ffcc33)),
         useMaterial3: true,
